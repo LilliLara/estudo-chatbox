@@ -82,17 +82,22 @@ section{
     text-align: center;
 }
 
+#text{
+    width: 95%;
+    padding-left: 8px;
+}
+
 #text > input[type=submit]{
     display: block;
     width: 100%;
-    height: 50px;
+    height: 40px;
     border: none;
     cursor: pointer;
 }
 
 #itext{
     width: 99%;
-    height: 30px;
+    height: 32px;
     border-radius: 5px;
 }
 
