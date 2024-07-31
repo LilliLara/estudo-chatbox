@@ -5,37 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CereJotinha!!!</title>
     <link rel="stylesheet" href="estlilo/style.css">
-    <link rel="shortcut icon" href="imagens/Pictogrammers-Material-Robot.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon-robozinho.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <section>
-            <div id="chatbox">
+        <div id="chat">
+            <div class="chat-title">
                 <h1>CereJotinha Bot</h1>
-
-                <div id="chat">
-                    <div id="client">
-                        <p>Aqui você pergunta</p>
-                    </div>
-                    <div id="robot">
-                        <p>Aqui ele responde</p>
-                    </div>
-                    <div id="client">
-                        <p>Aqui você pergunta</p>
-                    </div>
-                    <div id="robot">
-                        <p>Aqui ele responde</p>
-                    </div>
-                </div>
-
-                <div id="text">
-                    <input type="text" name="text" id="itext" placeholder="Digite aqui...">
-                    <label for="itext">Digite aqui</label>
-
-                </div>
-
+                <figure class="avatar">
+                    <img src="imagens/logo-cerejotinha.png">
+                </figure>
             </div>
-        </section>
-    </main>
+
+            <div class="msgs">
+                <div class="msgs-content">
+                    <div class="bot">
+                        <p>Aqui ele responde</p>
+                    </div>
+                    <div class="person">
+                        <p>Aqui você pergunta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="msg-box">
+                <textarea class="msg-input" placeholder="Digite aqui..."></textarea>
+                <button type="submit" class="msg-enviar">Enviar</button>
+            </div>
+        </div>
 </body>
 </html>
